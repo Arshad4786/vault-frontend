@@ -20,11 +20,11 @@ function Upper() {
 
   return (
     <div>
-      <div className="mx-16 my-3 px-0">
+      <div className="mx-3 md:mx-16  my-3 px-0">
         <div className="flex items-center justify-between rounded-full">
           <Image
             src={currentTheme === "dark" ? "/png-logo.png" : "/jpg-logo.jpg"}
-            className="rounded-3xl"
+            className="rounded-3xl w-16 md:w-24"
             layout="fixed"
             width={100}
             height={100}
