@@ -1,11 +1,12 @@
 import React from "react";
-import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
+import { BackgroundBeamsWithCollision } from "@/app/components/ui/background-beams-with-collision";
 
 export function BackgroundBeamsWithCollisionDemo() {
   return (
     (<BackgroundBeamsWithCollision>
+      <div>
       <h2
-        className="text-2xl relative z-20 md:text-4xl lg:text-7xl font-bold text-center text-black dark:text-white font-sans tracking-tight">
+        className="text-2xl relative  md:text-4xl lg:text-7xl font-bold text-center text-black dark:text-white font-sans tracking-tight">
         Know the power of {" "}
         <div
           className="relative mx-auto inline-block w-max [filter:drop-shadow(0px_1px_3px_rgba(27,_37,_80,_0.14))]">
@@ -19,6 +20,18 @@ export function BackgroundBeamsWithCollisionDemo() {
           </div>
         </div>
       </h2>
+      <h1 className="text-2xl relative md:text-1xl lg:text-4xl font-bold text-center text-black dark:text-white font-sans tracking-tight pb-4">
+  <a
+    href="/app.apk" 
+    download
+    className="cursor-pointer hover:text-blue-500 transition duration-300"
+  >
+    Download the App
+  </a>
+</h1>
+
+
+      </div>
     </BackgroundBeamsWithCollision>)
   );
 }

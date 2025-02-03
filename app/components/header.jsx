@@ -22,14 +22,17 @@ function Upper() {
     <div>
       <div className="mx-3 md:mx-16  my-3 px-0">
         <div className="flex items-center justify-between rounded-full">
+          <div className="flex items-center gap-1">
           <Image
-            src={currentTheme === "dark" ? "/png-logo.png" : "/jpg-logo.jpg"}
+            src={currentTheme === "dark" ? "/196x196.png" : "/196x196.png"}
             className="rounded-3xl w-16 md:w-24"
             layout="fixed"
             width={100}
             height={100}
             alt="Logo"
           />
+          <h1 className="text-5xl bg-blend-color font-semibold">FortiFi</h1>
+          </div>
           <ModeToggle />
         </div>
       </div>
